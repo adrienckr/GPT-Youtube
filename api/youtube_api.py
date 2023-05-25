@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 
 # Set up the API client
-api_key = "AIzaSyAQX50f262Fllww3hdXkfEw6e7X99-PyrE"
+api_key = ""
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 

@@ -1,6 +1,6 @@
 import openai
 import os
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]=""
 from langchain.document_loaders import YoutubeLoader
 from langchain.indexes import VectorstoreIndexCreator
 
